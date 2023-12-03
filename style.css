@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+    header {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+body {
+    padding-top: 150px; /* Ajustez la valeur selon la hauteur de votre header */
+}
+
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #3498db;
+    height: 30px;
+    width: 40vw; 
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1; 
+    text-align: justify;
+}
+
+.spotify-embed {
+    width: 50%; 
+    overflow: hidden; 
+}
+
+.image-carousel {
+    margin-top: 20px; /* Espace au-dessus du carrousel */
+}
+
+.image-carousel .slider {
+    width: 80%; /* Ajustez la largeur du carrousel selon vos besoins */
+    margin: 0 auto; /* Centre le carrousel */
+}
+
+.image-carousel img,
+.image-carousel video,
+.image-carousel iframe {
+    width: 100%; /* Assurez-vous que les images et vidéos remplissent la largeur du conteneur */
+    height: 300px; /* Ajustez la hauteur selon vos préférences */
+    object-fit: cover; /* Assurez-vous que l'image conserve ses proportions tout en couvrant complètement le conteneur */
+}
+image-carousel video {
+    object-position: center; /* Centre le focus de la vidéo */
+}
+.image-carousel .caption {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
