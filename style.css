@@ -57,7 +57,7 @@ body {
 }
 
 .image-carousel .slider {
-    width: 80%; /* Ajustez la largeur du carrousel selon vos besoins */
+    width: 95%; /* Ajustez la largeur du carrousel selon vos besoins */
     margin: 0 auto; /* Centre le carrousel */
 }
 
